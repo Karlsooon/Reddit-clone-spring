@@ -1,16 +1,14 @@
 package com.karakat.spring.RedditClone.service;
 
-import com.programming.techie.springredditclone.dto.CommentsDto;
-import com.programming.techie.springredditclone.exceptions.PostNotFoundException;
-import com.programming.techie.springredditclone.exceptions.SpringRedditException;
-import com.programming.techie.springredditclone.mapper.CommentMapper;
-import com.programming.techie.springredditclone.model.Comment;
-import com.programming.techie.springredditclone.model.NotificationEmail;
-import com.programming.techie.springredditclone.model.Post;
-import com.programming.techie.springredditclone.model.User;
-import com.programming.techie.springredditclone.repository.CommentRepository;
-import com.programming.techie.springredditclone.repository.PostRepository;
-import com.programming.techie.springredditclone.repository.UserRepository;
+
+import com.karakat.spring.RedditClone.dto.CommentsDto;
+import com.karakat.spring.RedditClone.model.Comment;
+import com.karakat.spring.RedditClone.model.NotificationEmail;
+import com.karakat.spring.RedditClone.model.Post;
+import com.karakat.spring.RedditClone.model.User;
+import com.karakat.spring.RedditClone.repository.CommentRepository;
+import com.karakat.spring.RedditClone.repository.PostRepository;
+import com.karakat.spring.RedditClone.repository.UserRepository;
 import lombok.AllArgsConstructor;
 import org.springframework.security.core.userdetails.UsernameNotFoundException;
 import org.springframework.stereotype.Service;

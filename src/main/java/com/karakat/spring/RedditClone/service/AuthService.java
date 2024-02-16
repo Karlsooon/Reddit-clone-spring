@@ -1,16 +1,16 @@
 package com.karakat.spring.RedditClone.service;
 
-import com.programming.techie.springredditclone.dto.AuthenticationResponse;
-import com.programming.techie.springredditclone.dto.LoginRequest;
-import com.programming.techie.springredditclone.dto.RefreshTokenRequest;
-import com.programming.techie.springredditclone.dto.RegisterRequest;
-import com.programming.techie.springredditclone.exceptions.SpringRedditException;
-import com.programming.techie.springredditclone.model.NotificationEmail;
-import com.programming.techie.springredditclone.model.User;
-import com.programming.techie.springredditclone.model.VerificationToken;
-import com.programming.techie.springredditclone.repository.UserRepository;
-import com.programming.techie.springredditclone.repository.VerificationTokenRepository;
-import com.programming.techie.springredditclone.security.JwtProvider;
+
+import com.karakat.spring.RedditClone.dto.AuthenticationResponse;
+import com.karakat.spring.RedditClone.dto.LoginRequest;
+import com.karakat.spring.RedditClone.dto.RefreshTokenRequest;
+import com.karakat.spring.RedditClone.dto.RegisterRequest;
+import com.karakat.spring.RedditClone.model.NotificationEmail;
+import com.karakat.spring.RedditClone.model.User;
+import com.karakat.spring.RedditClone.model.VerificationToken;
+import com.karakat.spring.RedditClone.repository.UserRepository;
+import com.karakat.spring.RedditClone.repository.VerificationTokenRepository;
+import com.karakat.spring.RedditClone.security.JwtProvider;
 import lombok.AllArgsConstructor;
 import org.springframework.security.authentication.AnonymousAuthenticationToken;
 import org.springframework.security.authentication.AuthenticationManager;
