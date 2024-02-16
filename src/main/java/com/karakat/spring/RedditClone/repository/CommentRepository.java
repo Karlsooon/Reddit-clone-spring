@@ -2,7 +2,7 @@ package com.karakat.spring.RedditClone.repository;
 
 import com.karakat.spring.RedditClone.model.Comment;
 import com.karakat.spring.RedditClone.model.Post;
-import org.apache.catalina.User;
+import com.karakat.spring.RedditClone.model.User;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 
