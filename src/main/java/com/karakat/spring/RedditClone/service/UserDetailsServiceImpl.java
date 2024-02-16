@@ -1,5 +1,6 @@
 package com.karakat.spring.RedditClone.service;
 
+
 import com.karakat.spring.RedditClone.model.User;
 import com.karakat.spring.RedditClone.repository.UserRepository;
 import lombok.AllArgsConstructor;

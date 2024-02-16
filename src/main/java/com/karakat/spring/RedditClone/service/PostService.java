@@ -7,12 +7,12 @@ import com.karakat.spring.RedditClone.exception.SubredditNotFoundException;
 import com.karakat.spring.RedditClone.mapper.PostMapper;
 import com.karakat.spring.RedditClone.model.Post;
 import com.karakat.spring.RedditClone.model.Subreddit;
-//import com.karakat.spring.RedditClone.model.User;
 import com.karakat.spring.RedditClone.model.User;
 import com.karakat.spring.RedditClone.repository.PostRepository;
 import com.karakat.spring.RedditClone.repository.SubredditRepository;
 import com.karakat.spring.RedditClone.repository.UserRepository;
 import com.karakat.spring.RedditClone.exception.PostNotFoundException;
+
 import lombok.AllArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.security.core.userdetails.UsernameNotFoundException;

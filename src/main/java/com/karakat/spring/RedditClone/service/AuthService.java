@@ -12,6 +12,7 @@ import com.karakat.spring.RedditClone.model.VerificationToken;
 import com.karakat.spring.RedditClone.repository.UserRepository;
 import com.karakat.spring.RedditClone.repository.VerificationTokenRepository;
 import com.karakat.spring.RedditClone.security.JwtProvider;
+
 import lombok.AllArgsConstructor;
 import org.springframework.security.authentication.AnonymousAuthenticationToken;
 import org.springframework.security.authentication.AuthenticationManager;

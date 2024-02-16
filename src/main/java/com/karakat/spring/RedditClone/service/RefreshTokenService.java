@@ -3,6 +3,7 @@ package com.karakat.spring.RedditClone.service;
 import com.karakat.spring.RedditClone.model.RefreshToken;
 import com.karakat.spring.RedditClone.repository.RefreshTokenRepository;
 import com.karakat.spring.RedditClone.exception.SpringRedditException;
+
 import lombok.AllArgsConstructor;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
