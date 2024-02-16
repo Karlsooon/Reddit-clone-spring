@@ -2,6 +2,7 @@ package com.karakat.spring.RedditClone.service;
 
 
 import com.karakat.spring.RedditClone.model.NotificationEmail;
+import com.karakat.spring.RedditClone.exception.SpringRedditException;
 import lombok.AllArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.mail.MailException;

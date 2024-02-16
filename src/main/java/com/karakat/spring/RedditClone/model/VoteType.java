@@ -1,4 +1,5 @@
 package com.karakat.spring.RedditClone.model;
+import com.karakat.spring.RedditClone.exception.SpringRedditException;
 
 import java.util.Arrays;
 public enum VoteType {

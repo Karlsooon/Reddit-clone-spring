@@ -2,6 +2,8 @@ package com.karakat.spring.RedditClone.service;
 
 
 import com.karakat.spring.RedditClone.dto.CommentsDto;
+import com.karakat.spring.RedditClone.exception.SpringRedditException;
+import com.karakat.spring.RedditClone.mapper.CommentMapper;
 import com.karakat.spring.RedditClone.model.Comment;
 import com.karakat.spring.RedditClone.model.NotificationEmail;
 import com.karakat.spring.RedditClone.model.Post;
@@ -12,6 +14,7 @@ import com.karakat.spring.RedditClone.repository.UserRepository;
 import lombok.AllArgsConstructor;
 import org.springframework.security.core.userdetails.UsernameNotFoundException;
 import org.springframework.stereotype.Service;
+import com.karakat.spring.RedditClone.exception.PostNotFoundException;
 
 import java.util.List;
 

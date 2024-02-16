@@ -5,6 +5,7 @@ import com.karakat.spring.RedditClone.dto.AuthenticationResponse;
 import com.karakat.spring.RedditClone.dto.LoginRequest;
 import com.karakat.spring.RedditClone.dto.RefreshTokenRequest;
 import com.karakat.spring.RedditClone.dto.RegisterRequest;
+import com.karakat.spring.RedditClone.exception.SpringRedditException;
 import com.karakat.spring.RedditClone.model.NotificationEmail;
 import com.karakat.spring.RedditClone.model.User;
 import com.karakat.spring.RedditClone.model.VerificationToken;

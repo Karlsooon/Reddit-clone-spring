@@ -1,6 +1,8 @@
 package com.karakat.spring.RedditClone.service;
 
 import com.karakat.spring.RedditClone.dto.VoteDto;
+import com.karakat.spring.RedditClone.exception.PostNotFoundException;
+import com.karakat.spring.RedditClone.exception.SpringRedditException;
 import com.karakat.spring.RedditClone.model.Post;
 import com.karakat.spring.RedditClone.model.Vote;
 import com.karakat.spring.RedditClone.repository.PostRepository;
@@ -12,7 +14,6 @@ import org.springframework.transaction.annotation.Transactional;
 import java.util.Optional;
 
 import static com.karakat.spring.RedditClone.model.VoteType.UPVOTE;
-import static com.programming.techie.springredditclone.model.VoteType.UPVOTE;
 
 @Service
 @AllArgsConstructor
